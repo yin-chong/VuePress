@@ -1,0 +1,1 @@
+export { default } from "D:\\Study\\VuePress\\node_modules\\vuepress-plugin-reading-progress\\enhanceAppFile.js"
