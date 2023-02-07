@@ -28,7 +28,3 @@ $ yarn add -D vuepress 或 npm install -g vuepress
 
 $ yarn docs:dev  或 npm run docs:dev
 ```
-
-### 预览
-
-![1563786698861](./docs/.vuepress/public/view.png)
