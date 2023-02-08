@@ -3,6 +3,5 @@ export default [
   "SWUpdatePopup",
   "DynamicTitle",
   "ReadingProgress",
-  "BgMusic",
-  "GlobalSocialShare"
+  "BgMusic"
 ]

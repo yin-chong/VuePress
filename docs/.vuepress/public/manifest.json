@@ -1,18 +1,11 @@
 {
-  "name": "君哥聊編程",
-  "short_name": "君哥",
+  "name": "秃头披风侠",
+  "short_name": "殷冲",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#2196f3",
-  "description": "君哥聊編程主页",
+  "description": "殷冲的个人博客",
   "theme_color": "blue",
-  "icons": [
-    {
-      "src": "./img/logo.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    }
-  ],
   "related_applications": [
     {
       "platform": "web"

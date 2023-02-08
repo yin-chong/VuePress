@@ -47,7 +47,7 @@ function vueSidebarShow() {
 }
 
 function loadSidebar(hrefTxt) {	
-	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<a href="' + hrefTxt + '" target="_blank"><img src="/img/sidebar_280140.png"></a>';
+	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<img src="/img/sidebar_280140.png" style="width: 280px; height: 140px;">';
 	console.log(sidebars)
 	sidebars[0].insertBefore(divNode , sidebars[0].childNodes[0]);
 	var e = document.getElementsByClassName("hide");if(e[1])e[1].remove();

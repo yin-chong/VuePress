@@ -3,6 +3,22 @@
  */
 export default {
   "tags": {
+    "Java基础": {
+      "key": "Java基础",
+      "scope": "tags",
+      "path": "/tags/Java基础/",
+      "pageKeys": [
+        "v-72c750ef"
+      ]
+    },
+    "零基础": {
+      "key": "零基础",
+      "scope": "tags",
+      "path": "/tags/零基础/",
+      "pageKeys": [
+        "v-72c750ef"
+      ]
+    },
     "面向对象": {
       "key": "面向对象",
       "scope": "tags",
@@ -24,6 +40,7 @@ export default {
       "scope": "tags",
       "path": "/tags/vue/",
       "pageKeys": [
+        "v-26f4ba23",
         "v-24098ea5"
       ]
     },
@@ -32,39 +49,16 @@ export default {
       "scope": "tags",
       "path": "/tags/js/",
       "pageKeys": [
+        "v-26f4ba23",
         "v-24098ea5"
       ]
     },
-    "生活": {
-      "key": "生活",
+    "前端": {
+      "key": "前端",
       "scope": "tags",
-      "path": "/tags/生活/",
+      "path": "/tags/前端/",
       "pageKeys": [
-        "v-472a77c8"
-      ]
-    },
-    "分享生活": {
-      "key": "分享生活",
-      "scope": "tags",
-      "path": "/tags/分享生活/",
-      "pageKeys": [
-        "v-472a77c8"
-      ]
-    },
-    "Java基础": {
-      "key": "Java基础",
-      "scope": "tags",
-      "path": "/tags/Java基础/",
-      "pageKeys": [
-        "v-72c750ef"
-      ]
-    },
-    "零基础": {
-      "key": "零基础",
-      "scope": "tags",
-      "path": "/tags/零基础/",
-      "pageKeys": [
-        "v-72c750ef"
+        "v-26f4ba23"
       ]
     },
     "Spring": {
@@ -82,9 +76,33 @@ export default {
       "pageKeys": [
         "v-ca9a1562"
       ]
+    },
+    "生活": {
+      "key": "生活",
+      "scope": "tags",
+      "path": "/tags/生活/",
+      "pageKeys": [
+        "v-472a77c8"
+      ]
+    },
+    "分享生活": {
+      "key": "分享生活",
+      "scope": "tags",
+      "path": "/tags/分享生活/",
+      "pageKeys": [
+        "v-472a77c8"
+      ]
     }
   },
   "categories": {
+    "Java基础": {
+      "key": "Java基础",
+      "scope": "categories",
+      "path": "/categories/Java基础/",
+      "pageKeys": [
+        "v-72c750ef"
+      ]
+    },
     "java": {
       "key": "java",
       "scope": "categories",
@@ -108,14 +126,6 @@ export default {
       "path": "/categories/生活/",
       "pageKeys": [
         "v-472a77c8"
-      ]
-    },
-    "Java基础": {
-      "key": "Java基础",
-      "scope": "categories",
-      "path": "/categories/Java基础/",
-      "pageKeys": [
-        "v-72c750ef"
       ]
     }
   },
