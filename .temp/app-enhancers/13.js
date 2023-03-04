@@ -1,1 +1,2 @@
-export { default } from "D:\\Study\\VuePress\\node_modules\\vuepress-plugin-dynamic-title\\bin\\enhanceAppFile.js"
+import "D:\\Study\\VuePress\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
+export default {}

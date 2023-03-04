@@ -3,11 +3,13 @@
  */
 export default {
   "v-3ce27bdd": () => import("D:\\Study\\VuePress\\docs\\README.md"),
+  "v-00b78bfd": () => import("D:\\Study\\VuePress\\docs\\前端\\ES6\\promise.md"),
+  "v-5b08735a": () => import("D:\\Study\\VuePress\\docs\\前端\\Vue\\Vue2 Diff算法解析.md"),
   "v-b60b2820": () => import("D:\\Study\\VuePress\\docs\\guide\\README.md"),
-  "v-72c750ef": () => import("D:\\Study\\VuePress\\docs\\技术文章\\README.md"),
-  "v-0f85ec36": () => import("D:\\Study\\VuePress\\docs\\技术文章\\java\\javase.md"),
-  "v-26f4ba23": () => import("D:\\Study\\VuePress\\docs\\技术文章\\vue\\vue02.md"),
-  "v-24098ea5": () => import("D:\\Study\\VuePress\\docs\\技术文章\\vue\\vue01.md"),
+  "v-6aa881d2": () => import("D:\\Study\\VuePress\\docs\\前端\\ES6\\proxy.md"),
   "v-ca9a1562": () => import("D:\\Study\\VuePress\\docs\\技术文章\\java高级\\javaee.md"),
-  "v-472a77c8": () => import("D:\\Study\\VuePress\\docs\\生活分享\\life.md") 
+  "v-72c750ef": () => import("D:\\Study\\VuePress\\docs\\技术文章\\README.md"),
+  "v-24098ea5": () => import("D:\\Study\\VuePress\\docs\\技术文章\\vue\\vue01.md"),
+  "v-472a77c8": () => import("D:\\Study\\VuePress\\docs\\生活分享\\life.md"),
+  "v-26f4ba23": () => import("D:\\Study\\VuePress\\docs\\技术文章\\vue\\vue02.md") 
 }
