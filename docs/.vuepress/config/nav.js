@@ -38,9 +38,9 @@ module.exports = [
         ]
     },
     {
-        text: '生活分享', link: '/生活分享/', icon: 'reco-faq',
+        text: '其他', link: '/其他/', icon: 'reco-faq',
         items: [
-			{text: '生活分享', link: '/生活分享/life'},
+			{text: '其他', link: '/其他/技术选型'},
         ]
     },
 	{ text: '时间轴', link: '/timeline/', icon: 'reco-date' }

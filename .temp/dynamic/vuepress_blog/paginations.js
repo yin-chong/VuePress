@@ -7,6 +7,34 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
+  id: "其他",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/其他/","interval":[0,1]}],
+},
+{
+  pid: "tags",
+  id: "项目开发",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/项目开发/","interval":[0,1]}],
+},
+{
+  pid: "tags",
+  id: "Java基础",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/Java基础/","interval":[0,1]}],
+},
+{
+  pid: "tags",
+  id: "零基础",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/零基础/","interval":[0,1]}],
+},
+{
+  pid: "tags",
   id: "ES6",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -49,20 +77,6 @@ export default [{
 },
 {
   pid: "tags",
-  id: "Java基础",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/Java基础/","interval":[0,1]}],
-},
-{
-  pid: "tags",
-  id: "零基础",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/零基础/","interval":[0,1]}],
-},
-{
-  pid: "tags",
   id: "生活",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -77,6 +91,20 @@ export default [{
 },
 {
   pid: "categories",
+  id: "其他",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/其他/","interval":[0,1]}],
+},
+{
+  pid: "categories",
+  id: "Java基础",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/Java基础/","interval":[0,1]}],
+},
+{
+  pid: "categories",
   id: "前端",
   filter: filters.categories,
   sorter: sorters.categories,
@@ -88,13 +116,6 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/java/","interval":[0,1]}],
-},
-{
-  pid: "categories",
-  id: "Java基础",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/Java基础/","interval":[0,1]}],
 },
 {
   pid: "categories",
