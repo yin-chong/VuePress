@@ -7,20 +7,6 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
-  id: "其他",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/其他/","interval":[0,1]}],
-},
-{
-  pid: "tags",
-  id: "项目开发",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/项目开发/","interval":[0,1]}],
-},
-{
-  pid: "tags",
   id: "Java基础",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -35,10 +21,10 @@ export default [{
 },
 {
   pid: "tags",
-  id: "ES6",
+  id: "vue",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/ES6/","interval":[0,2]}],
+  pages: [{"path":"/tags/vue/","interval":[0,3]}],
 },
 {
   pid: "tags",
@@ -56,24 +42,24 @@ export default [{
 },
 {
   pid: "tags",
-  id: "vue",
+  id: "其他",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/vue/","interval":[0,3]}],
+  pages: [{"path":"/tags/其他/","interval":[0,2]}],
 },
 {
   pid: "tags",
-  id: "Spring",
+  id: "项目开发",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/Spring/","interval":[0,1]}],
+  pages: [{"path":"/tags/项目开发/","interval":[0,2]}],
 },
 {
   pid: "tags",
-  id: "SpringBoot",
+  id: "ES6",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/SpringBoot/","interval":[0,1]}],
+  pages: [{"path":"/tags/ES6/","interval":[0,2]}],
 },
 {
   pid: "tags",
@@ -90,11 +76,18 @@ export default [{
   pages: [{"path":"/tags/分享生活/","interval":[0,1]}],
 },
 {
-  pid: "categories",
-  id: "其他",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/其他/","interval":[0,1]}],
+  pid: "tags",
+  id: "Spring",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/Spring/","interval":[0,1]}],
+},
+{
+  pid: "tags",
+  id: "SpringBoot",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/SpringBoot/","interval":[0,1]}],
 },
 {
   pid: "categories",
@@ -112,10 +105,10 @@ export default [{
 },
 {
   pid: "categories",
-  id: "java",
+  id: "其他",
   filter: filters.categories,
   sorter: sorters.categories,
-  pages: [{"path":"/categories/java/","interval":[0,1]}],
+  pages: [{"path":"/categories/其他/","interval":[0,2]}],
 },
 {
   pid: "categories",
@@ -123,4 +116,11 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/生活/","interval":[0,1]}],
+},
+{
+  pid: "categories",
+  id: "java",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/java/","interval":[0,1]}],
 }]
