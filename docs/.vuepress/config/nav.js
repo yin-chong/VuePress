@@ -27,12 +27,14 @@ module.exports = [
 				text: 'Vue',
 				items: [
 					{text: 'Vue2', link: '/前端/Vue/Vue2 Diff算法解析'},
+					{text: 'Vue3', link: '/前端/Vue/Vue3 架构搭建'},
 				]
 			},
             {
 				text: 'ES6',
 				items: [
-					{text: 'ES6', link: '/前端/ES6/proxy'},
+					{text: 'promise', link: '/前端/ES6/promise'},
+					{text: 'proxy', link: '/前端/ES6/proxy'},
 				]
 			},
         ]

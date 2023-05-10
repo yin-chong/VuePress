@@ -16,14 +16,39 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
       "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline",
+        "home": true,
+        "heroText": "殷冲的个人博客",
+        "bgImage": "/img/5.jpg",
+        "bgImageStyle": {
+          "height": "350px"
+        },
+        "isShowTitleInHome": true,
+        "actionText": "About Me",
+        "actionLink": "/views/personalInfo/",
+        "features": [
+          {
+            "title": "Who am I？",
+            "details": "A programmer? A human being? Or a matter combination?"
+          },
+          {
+            "title": "Where am I？",
+            "details": "In a city? On earth? Or in a small part of space?"
+          },
+          {
+            "title": "What am I gona do？",
+            "details": "Work? Struggle? Or go to a destination I don't know?"
+          }
+        ],
         "readingShow": "top"
       },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-3ce27bdd",
+      "path": "/",
+      "lastUpdated": "2/8/2023, 9:55:50 AM",
+      "lastUpdatedTimestamp": 1675821350000
     },
     {
       "title": "本站指南",
@@ -80,94 +105,14 @@ export const siteData = {
       "lastUpdatedTimestamp": 1675739419000
     },
     {
-      "title": "Home",
       "frontmatter": {
-        "home": true,
-        "heroText": "殷冲的个人博客",
-        "bgImage": "/img/5.jpg",
-        "bgImageStyle": {
-          "height": "350px"
-        },
-        "isShowTitleInHome": true,
-        "actionText": "About Me",
-        "actionLink": "/views/personalInfo/",
-        "features": [
-          {
-            "title": "Who am I？",
-            "details": "A programmer? A human being? Or a matter combination?"
-          },
-          {
-            "title": "Where am I？",
-            "details": "In a city? On earth? Or in a small part of space?"
-          },
-          {
-            "title": "What am I gona do？",
-            "details": "Work? Struggle? Or go to a destination I don't know?"
-          }
-        ],
+        "layout": "TimeLines",
+        "title": "Timeline",
         "readingShow": "top"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-3ce27bdd",
-      "path": "/",
-      "lastUpdated": "2/8/2023, 9:55:50 AM",
-      "lastUpdatedTimestamp": 1675821350000
-    },
-    {
-      "title": "Java零基础学习路线",
-      "frontmatter": {
-        "title": "Java零基础学习路线",
-        "date": "2022-08-08T00:00:00.000Z",
-        "sidebarDepth": 2,
-        "categories": [
-          "Java基础"
-        ],
-        "tags": [
-          "Java基础",
-          "零基础"
-        ],
-        "author": "殷冲",
-        "publish": true,
-        "readingShow": "top"
-      },
-      "regularPath": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/",
-      "relativePath": "技术文章/README.md",
-      "key": "v-72c750ef",
-      "path": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "学习之路",
-          "slug": "学习之路"
-        }
-      ],
-      "excerpt": "",
-      "lastUpdated": "2/8/2023, 9:55:50 AM",
-      "lastUpdatedTimestamp": 1675821350000
-    },
-    {
-      "title": "Vue2 Diff算法解析",
-      "frontmatter": {
-        "title": "Vue2 Diff算法解析",
-        "date": "2023-02-08T12:44:15.000Z",
-        "tags": [
-          "vue",
-          "js",
-          "前端"
-        ],
-        "categories": [
-          "前端"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
-      "relativePath": "前端/Vue/Vue2 Diff算法解析.md",
-      "key": "v-5b08735a",
-      "path": "/%E5%89%8D%E7%AB%AF/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
-      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
-      "lastUpdated": "3/4/2023, 6:31:03 PM",
-      "lastUpdatedTimestamp": 1677925863000
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
     },
     {
       "title": "技术选型",
@@ -211,31 +156,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>记录一下在开发时遇到的关于技术选型的问题，以及如何做好技术选型</p>\n</div>\n",
-      "lastUpdated": "4/23/2023, 10:33:36 AM",
-      "lastUpdatedTimestamp": 1682217216000
-    },
-    {
-      "title": "Proxy",
-      "frontmatter": {
-        "title": "Proxy",
-        "date": "2023-02-08T12:44:15.000Z",
-        "tags": [
-          "ES6",
-          "js",
-          "前端"
-        ],
-        "categories": [
-          "前端"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/ES6/proxy.html",
-      "relativePath": "前端/ES6/proxy.md",
-      "key": "v-6aa881d2",
-      "path": "/%E5%89%8D%E7%AB%AF/ES6/proxy.html",
-      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
-      "lastUpdated": "3/4/2023, 6:31:03 PM",
-      "lastUpdatedTimestamp": 1677925863000
+      "lastUpdated": "4/24/2023, 3:13:49 PM",
+      "lastUpdatedTimestamp": 1682320429000
     },
     {
       "title": "Promise",
@@ -301,29 +223,53 @@ export const siteData = {
           "slug": "了解业务-理解需求"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>随手记录一下开发时的所思所想</p>\n</div>\n"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>随手记录一下开发时的所思所想</p>\n</div>\n",
+      "lastUpdated": "4/24/2023, 3:13:49 PM",
+      "lastUpdatedTimestamp": 1682320429000
     },
     {
-      "title": "分享生活",
+      "title": "Vue2 Diff算法解析",
       "frontmatter": {
-        "title": " 分享生活",
-        "date": "2200-05-01T12:44:15.000Z",
+        "title": "Vue2 Diff算法解析",
+        "date": "2023-02-08T12:44:15.000Z",
         "tags": [
-          "生活",
-          "分享生活"
+          "vue",
+          "js",
+          "前端"
         ],
         "categories": [
-          "生活"
+          "前端"
         ],
         "readingShow": "top"
       },
-      "regularPath": "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html",
-      "relativePath": "生活分享/life.md",
-      "key": "v-472a77c8",
-      "path": "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html",
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>这是分享生活的摘要内容，<code>vuepress</code>提供的语法块，这部分内容会显示在首页，不信你去首页看看</p>\n</div>\n",
-      "lastUpdated": "2/8/2023, 9:55:50 AM",
-      "lastUpdatedTimestamp": 1675821350000
+      "regularPath": "/%E5%89%8D%E7%AB%AF/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
+      "relativePath": "前端/Vue/Vue2 Diff算法解析.md",
+      "key": "v-5b08735a",
+      "path": "/%E5%89%8D%E7%AB%AF/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
+      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
+      "lastUpdated": "3/4/2023, 6:31:03 PM",
+      "lastUpdatedTimestamp": 1677925863000
+    },
+    {
+      "title": "Vue3 架构搭建",
+      "frontmatter": {
+        "title": "Vue3 架构搭建",
+        "date": "2023-05-04T12:44:15.000Z",
+        "tags": [
+          "vue",
+          "js",
+          "前端"
+        ],
+        "categories": [
+          "前端"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/%E5%89%8D%E7%AB%AF/Vue/Vue3%20%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA.html",
+      "relativePath": "前端/Vue/Vue3 架构搭建.md",
+      "key": "v-34d2de79",
+      "path": "/%E5%89%8D%E7%AB%AF/Vue/Vue3%20%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA.html",
+      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n"
     },
     {
       "title": "前端基础",
@@ -348,6 +294,28 @@ export const siteData = {
       "lastUpdatedTimestamp": 1675739419000
     },
     {
+      "title": "分享生活",
+      "frontmatter": {
+        "title": " 分享生活",
+        "date": "2200-05-01T12:44:15.000Z",
+        "tags": [
+          "生活",
+          "分享生活"
+        ],
+        "categories": [
+          "生活"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html",
+      "relativePath": "生活分享/life.md",
+      "key": "v-472a77c8",
+      "path": "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html",
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>这是分享生活的摘要内容，<code>vuepress</code>提供的语法块，这部分内容会显示在首页，不信你去首页看看</p>\n</div>\n",
+      "lastUpdated": "2/8/2023, 9:55:50 AM",
+      "lastUpdatedTimestamp": 1675821350000
+    },
+    {
       "title": "Java高级",
       "frontmatter": {
         "title": "Java高级",
@@ -368,6 +336,61 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>这是Java高级的摘要内容，<code>vuepress</code>提供的语法块，这部分内容会显示在首页，不信你去首页看看</p>\n<p><a href=\"https://ke.qq.com/course/5285550\" target=\"_blank\" rel=\"noopener noreferrer\">点击免费观看教学视频<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "2/7/2023, 11:10:19 AM",
       "lastUpdatedTimestamp": 1675739419000
+    },
+    {
+      "title": "Proxy",
+      "frontmatter": {
+        "title": "Proxy",
+        "date": "2023-02-08T12:44:15.000Z",
+        "tags": [
+          "ES6",
+          "js",
+          "前端"
+        ],
+        "categories": [
+          "前端"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/%E5%89%8D%E7%AB%AF/ES6/proxy.html",
+      "relativePath": "前端/ES6/proxy.md",
+      "key": "v-6aa881d2",
+      "path": "/%E5%89%8D%E7%AB%AF/ES6/proxy.html",
+      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
+      "lastUpdated": "3/4/2023, 6:31:03 PM",
+      "lastUpdatedTimestamp": 1677925863000
+    },
+    {
+      "title": "Java零基础学习路线",
+      "frontmatter": {
+        "title": "Java零基础学习路线",
+        "date": "2022-08-08T00:00:00.000Z",
+        "sidebarDepth": 2,
+        "categories": [
+          "Java基础"
+        ],
+        "tags": [
+          "Java基础",
+          "零基础"
+        ],
+        "author": "殷冲",
+        "publish": true,
+        "readingShow": "top"
+      },
+      "regularPath": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/",
+      "relativePath": "技术文章/README.md",
+      "key": "v-72c750ef",
+      "path": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "学习之路",
+          "slug": "学习之路"
+        }
+      ],
+      "excerpt": "",
+      "lastUpdated": "2/8/2023, 9:55:50 AM",
+      "lastUpdatedTimestamp": 1675821350000
     },
     {
       "title": "vue基础",
@@ -412,56 +435,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "Java基础 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/Java%E5%9F%BA%E7%A1%80/",
-      "key": "v-2a5adf98",
-      "path": "/tags/Java基础/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "零基础 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/",
-      "key": "v-e03f2858",
-      "path": "/tags/零基础/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "vue tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/vue/",
-      "key": "v-669281ea",
-      "path": "/tags/vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "js tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/js/",
-      "key": "v-2aeea536",
-      "path": "/tags/js/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "前端 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E5%89%8D%E7%AB%AF/",
-      "key": "v-ea7abf1a",
-      "path": "/tags/前端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "其他 tags",
         "readingShow": "top"
       },
@@ -488,6 +461,36 @@ export const siteData = {
       "regularPath": "/tags/ES6/",
       "key": "v-667bb668",
       "path": "/tags/ES6/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "js tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tags/js/",
+      "key": "v-2aeea536",
+      "path": "/tags/js/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "前端 tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tags/%E5%89%8D%E7%AB%AF/",
+      "key": "v-ea7abf1a",
+      "path": "/tags/前端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vue tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tags/vue/",
+      "key": "v-669281ea",
+      "path": "/tags/vue/"
     },
     {
       "frontmatter": {
@@ -531,23 +534,23 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Category",
-        "title": "Java基础 categories",
+        "layout": "Tag",
+        "title": "Java基础 tags",
         "readingShow": "top"
       },
-      "regularPath": "/categories/Java%E5%9F%BA%E7%A1%80/",
-      "key": "v-fc6ed512",
-      "path": "/categories/Java基础/"
+      "regularPath": "/tags/Java%E5%9F%BA%E7%A1%80/",
+      "key": "v-2a5adf98",
+      "path": "/tags/Java基础/"
     },
     {
       "frontmatter": {
-        "layout": "Category",
-        "title": "前端 categories",
+        "layout": "Tag",
+        "title": "零基础 tags",
         "readingShow": "top"
       },
-      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
-      "key": "v-14bbbf36",
-      "path": "/categories/前端/"
+      "regularPath": "/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/",
+      "key": "v-e03f2858",
+      "path": "/tags/零基础/"
     },
     {
       "frontmatter": {
@@ -558,6 +561,16 @@ export const siteData = {
       "regularPath": "/categories/%E5%85%B6%E4%BB%96/",
       "key": "v-7fc479ec",
       "path": "/categories/其他/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "前端 categories",
+        "readingShow": "top"
+      },
+      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
+      "key": "v-14bbbf36",
+      "path": "/categories/前端/"
     },
     {
       "frontmatter": {
@@ -578,6 +591,16 @@ export const siteData = {
       "regularPath": "/categories/java/",
       "key": "v-62faafef",
       "path": "/categories/java/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Java基础 categories",
+        "readingShow": "top"
+      },
+      "regularPath": "/categories/Java%E5%9F%BA%E7%A1%80/",
+      "key": "v-fc6ed512",
+      "path": "/categories/Java基础/"
     }
   ],
   "themeConfig": {
@@ -604,6 +627,10 @@ export const siteData = {
               {
                 "text": "Vue2",
                 "link": "/前端/Vue/Vue2 Diff算法解析"
+              },
+              {
+                "text": "Vue3",
+                "link": "/前端/Vue/Vue3 架构搭建"
               }
             ]
           },
@@ -611,7 +638,11 @@ export const siteData = {
             "text": "ES6",
             "items": [
               {
-                "text": "ES6",
+                "text": "promise",
+                "link": "/前端/ES6/promise"
+              },
+              {
+                "text": "proxy",
                 "link": "/前端/ES6/proxy"
               }
             ]

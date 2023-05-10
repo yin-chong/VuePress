@@ -3,55 +3,6 @@
  */
 export default {
   "tags": {
-    "Java基础": {
-      "key": "Java基础",
-      "scope": "tags",
-      "path": "/tags/Java基础/",
-      "pageKeys": [
-        "v-72c750ef"
-      ]
-    },
-    "零基础": {
-      "key": "零基础",
-      "scope": "tags",
-      "path": "/tags/零基础/",
-      "pageKeys": [
-        "v-72c750ef"
-      ]
-    },
-    "vue": {
-      "key": "vue",
-      "scope": "tags",
-      "path": "/tags/vue/",
-      "pageKeys": [
-        "v-5b08735a",
-        "v-24098ea5",
-        "v-26f4ba23"
-      ]
-    },
-    "js": {
-      "key": "js",
-      "scope": "tags",
-      "path": "/tags/js/",
-      "pageKeys": [
-        "v-5b08735a",
-        "v-6aa881d2",
-        "v-00b78bfd",
-        "v-24098ea5",
-        "v-26f4ba23"
-      ]
-    },
-    "前端": {
-      "key": "前端",
-      "scope": "tags",
-      "path": "/tags/前端/",
-      "pageKeys": [
-        "v-5b08735a",
-        "v-6aa881d2",
-        "v-00b78bfd",
-        "v-26f4ba23"
-      ]
-    },
     "其他": {
       "key": "其他",
       "scope": "tags",
@@ -75,8 +26,44 @@ export default {
       "scope": "tags",
       "path": "/tags/ES6/",
       "pageKeys": [
+        "v-00b78bfd",
+        "v-6aa881d2"
+      ]
+    },
+    "js": {
+      "key": "js",
+      "scope": "tags",
+      "path": "/tags/js/",
+      "pageKeys": [
+        "v-00b78bfd",
+        "v-5b08735a",
+        "v-34d2de79",
+        "v-24098ea5",
         "v-6aa881d2",
-        "v-00b78bfd"
+        "v-26f4ba23"
+      ]
+    },
+    "前端": {
+      "key": "前端",
+      "scope": "tags",
+      "path": "/tags/前端/",
+      "pageKeys": [
+        "v-00b78bfd",
+        "v-5b08735a",
+        "v-34d2de79",
+        "v-6aa881d2",
+        "v-26f4ba23"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tags/vue/",
+      "pageKeys": [
+        "v-5b08735a",
+        "v-34d2de79",
+        "v-24098ea5",
+        "v-26f4ba23"
       ]
     },
     "生活": {
@@ -110,28 +97,25 @@ export default {
       "pageKeys": [
         "v-ca9a1562"
       ]
-    }
-  },
-  "categories": {
+    },
     "Java基础": {
       "key": "Java基础",
-      "scope": "categories",
-      "path": "/categories/Java基础/",
+      "scope": "tags",
+      "path": "/tags/Java基础/",
       "pageKeys": [
         "v-72c750ef"
       ]
     },
-    "前端": {
-      "key": "前端",
-      "scope": "categories",
-      "path": "/categories/前端/",
+    "零基础": {
+      "key": "零基础",
+      "scope": "tags",
+      "path": "/tags/零基础/",
       "pageKeys": [
-        "v-5b08735a",
-        "v-6aa881d2",
-        "v-00b78bfd",
-        "v-24098ea5"
+        "v-72c750ef"
       ]
-    },
+    }
+  },
+  "categories": {
     "其他": {
       "key": "其他",
       "scope": "categories",
@@ -139,6 +123,18 @@ export default {
       "pageKeys": [
         "v-b82b3eb8",
         "v-0736f00a"
+      ]
+    },
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-00b78bfd",
+        "v-5b08735a",
+        "v-34d2de79",
+        "v-24098ea5",
+        "v-6aa881d2"
       ]
     },
     "生活": {
@@ -155,6 +151,14 @@ export default {
       "path": "/categories/java/",
       "pageKeys": [
         "v-ca9a1562"
+      ]
+    },
+    "Java基础": {
+      "key": "Java基础",
+      "scope": "categories",
+      "path": "/categories/Java基础/",
+      "pageKeys": [
+        "v-72c750ef"
       ]
     }
   },
