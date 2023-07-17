@@ -1,1 +1,1 @@
-export { default } from "D:\\Study\\VuePress\\node_modules\\@vuepress-reco\\vuepress-plugin-extract-code\\bin\\enhanceAppFile.js"
+export { default } from "F:\\study\\VuePress\\node_modules\\@vuepress-reco\\vuepress-plugin-extract-code\\bin\\enhanceAppFile.js"

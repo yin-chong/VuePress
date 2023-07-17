@@ -8,8 +8,17 @@ export default {
       "scope": "tags",
       "path": "/tags/其他/",
       "pageKeys": [
-        "v-b82b3eb8",
-        "v-0736f00a"
+        "v-6074000b",
+        "v-08bbe002",
+        "v-6c086f68"
+      ]
+    },
+    "入职随笔": {
+      "key": "入职随笔",
+      "scope": "tags",
+      "path": "/tags/入职随笔/",
+      "pageKeys": [
+        "v-6074000b"
       ]
     },
     "项目开发": {
@@ -17,8 +26,8 @@ export default {
       "scope": "tags",
       "path": "/tags/项目开发/",
       "pageKeys": [
-        "v-b82b3eb8",
-        "v-0736f00a"
+        "v-08bbe002",
+        "v-6c086f68"
       ]
     },
     "ES6": {
@@ -26,8 +35,8 @@ export default {
       "scope": "tags",
       "path": "/tags/ES6/",
       "pageKeys": [
-        "v-00b78bfd",
-        "v-6aa881d2"
+        "v-6662c6db",
+        "v-0d19ce16"
       ]
     },
     "js": {
@@ -35,12 +44,12 @@ export default {
       "scope": "tags",
       "path": "/tags/js/",
       "pageKeys": [
-        "v-00b78bfd",
-        "v-5b08735a",
-        "v-34d2de79",
-        "v-24098ea5",
-        "v-6aa881d2",
-        "v-26f4ba23"
+        "v-6662c6db",
+        "v-0d19ce16",
+        "v-1a0b59b8",
+        "v-edcdfa52",
+        "v-434f4d83",
+        "v-463a7901"
       ]
     },
     "前端": {
@@ -48,11 +57,11 @@ export default {
       "scope": "tags",
       "path": "/tags/前端/",
       "pageKeys": [
-        "v-00b78bfd",
-        "v-5b08735a",
-        "v-34d2de79",
-        "v-6aa881d2",
-        "v-26f4ba23"
+        "v-6662c6db",
+        "v-0d19ce16",
+        "v-1a0b59b8",
+        "v-edcdfa52",
+        "v-463a7901"
       ]
     },
     "vue": {
@@ -60,26 +69,10 @@ export default {
       "scope": "tags",
       "path": "/tags/vue/",
       "pageKeys": [
-        "v-5b08735a",
-        "v-34d2de79",
-        "v-24098ea5",
-        "v-26f4ba23"
-      ]
-    },
-    "生活": {
-      "key": "生活",
-      "scope": "tags",
-      "path": "/tags/生活/",
-      "pageKeys": [
-        "v-472a77c8"
-      ]
-    },
-    "分享生活": {
-      "key": "分享生活",
-      "scope": "tags",
-      "path": "/tags/分享生活/",
-      "pageKeys": [
-        "v-472a77c8"
+        "v-1a0b59b8",
+        "v-edcdfa52",
+        "v-434f4d83",
+        "v-463a7901"
       ]
     },
     "Spring": {
@@ -87,7 +80,7 @@ export default {
       "scope": "tags",
       "path": "/tags/Spring/",
       "pageKeys": [
-        "v-ca9a1562"
+        "v-13fd0ba6"
       ]
     },
     "SpringBoot": {
@@ -95,7 +88,7 @@ export default {
       "scope": "tags",
       "path": "/tags/SpringBoot/",
       "pageKeys": [
-        "v-ca9a1562"
+        "v-13fd0ba6"
       ]
     },
     "Java基础": {
@@ -103,7 +96,7 @@ export default {
       "scope": "tags",
       "path": "/tags/Java基础/",
       "pageKeys": [
-        "v-72c750ef"
+        "v-237a4251"
       ]
     },
     "零基础": {
@@ -111,7 +104,23 @@ export default {
       "scope": "tags",
       "path": "/tags/零基础/",
       "pageKeys": [
-        "v-72c750ef"
+        "v-237a4251"
+      ]
+    },
+    "生活": {
+      "key": "生活",
+      "scope": "tags",
+      "path": "/tags/生活/",
+      "pageKeys": [
+        "v-ecacd7b4"
+      ]
+    },
+    "分享生活": {
+      "key": "分享生活",
+      "scope": "tags",
+      "path": "/tags/分享生活/",
+      "pageKeys": [
+        "v-ecacd7b4"
       ]
     }
   },
@@ -121,8 +130,9 @@ export default {
       "scope": "categories",
       "path": "/categories/其他/",
       "pageKeys": [
-        "v-b82b3eb8",
-        "v-0736f00a"
+        "v-6074000b",
+        "v-08bbe002",
+        "v-6c086f68"
       ]
     },
     "前端": {
@@ -130,19 +140,11 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-00b78bfd",
-        "v-5b08735a",
-        "v-34d2de79",
-        "v-24098ea5",
-        "v-6aa881d2"
-      ]
-    },
-    "生活": {
-      "key": "生活",
-      "scope": "categories",
-      "path": "/categories/生活/",
-      "pageKeys": [
-        "v-472a77c8"
+        "v-6662c6db",
+        "v-0d19ce16",
+        "v-1a0b59b8",
+        "v-edcdfa52",
+        "v-434f4d83"
       ]
     },
     "java": {
@@ -150,7 +152,7 @@ export default {
       "scope": "categories",
       "path": "/categories/java/",
       "pageKeys": [
-        "v-ca9a1562"
+        "v-13fd0ba6"
       ]
     },
     "Java基础": {
@@ -158,7 +160,15 @@ export default {
       "scope": "categories",
       "path": "/categories/Java基础/",
       "pageKeys": [
-        "v-72c750ef"
+        "v-237a4251"
+      ]
+    },
+    "生活": {
+      "key": "生活",
+      "scope": "categories",
+      "path": "/categories/生活/",
+      "pageKeys": [
+        "v-ecacd7b4"
       ]
     }
   },

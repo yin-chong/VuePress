@@ -10,7 +10,14 @@ export default [{
   id: "其他",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/其他/","interval":[0,2]}],
+  pages: [{"path":"/tags/其他/","interval":[0,3]}],
+},
+{
+  pid: "tags",
+  id: "入职随笔",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/入职随笔/","interval":[0,1]}],
 },
 {
   pid: "tags",
@@ -49,20 +56,6 @@ export default [{
 },
 {
   pid: "tags",
-  id: "生活",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/生活/","interval":[0,1]}],
-},
-{
-  pid: "tags",
-  id: "分享生活",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/分享生活/","interval":[0,1]}],
-},
-{
-  pid: "tags",
   id: "Spring",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -90,11 +83,25 @@ export default [{
   pages: [{"path":"/tags/零基础/","interval":[0,1]}],
 },
 {
+  pid: "tags",
+  id: "生活",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/生活/","interval":[0,1]}],
+},
+{
+  pid: "tags",
+  id: "分享生活",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/分享生活/","interval":[0,1]}],
+},
+{
   pid: "categories",
   id: "其他",
   filter: filters.categories,
   sorter: sorters.categories,
-  pages: [{"path":"/categories/其他/","interval":[0,2]}],
+  pages: [{"path":"/categories/其他/","interval":[0,3]}],
 },
 {
   pid: "categories",
@@ -102,13 +109,6 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/前端/","interval":[0,5]}],
-},
-{
-  pid: "categories",
-  id: "生活",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/生活/","interval":[0,1]}],
 },
 {
   pid: "categories",
@@ -123,4 +123,11 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/Java基础/","interval":[0,1]}],
+},
+{
+  pid: "categories",
+  id: "生活",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/生活/","interval":[0,1]}],
 }]

@@ -1,1 +1,1 @@
-export { default } from "D:\\Study\\VuePress\\node_modules\\@vuepress\\plugin-blog\\lib\\client\\classification.js"
+export { default } from "F:\\study\\VuePress\\node_modules\\@vuepress\\plugin-blog\\lib\\client\\classification.js"
