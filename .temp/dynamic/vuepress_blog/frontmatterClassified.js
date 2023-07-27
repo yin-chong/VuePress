@@ -8,16 +8,7 @@ export default {
       "scope": "tags",
       "path": "/tags/其他/",
       "pageKeys": [
-        "v-08bbe002",
         "v-6074000b",
-        "v-6c086f68"
-      ]
-    },
-    "项目开发": {
-      "key": "项目开发",
-      "scope": "tags",
-      "path": "/tags/项目开发/",
-      "pageKeys": [
         "v-08bbe002",
         "v-6c086f68"
       ]
@@ -46,8 +37,8 @@ export default {
       "pageKeys": [
         "v-6662c6db",
         "v-0d19ce16",
-        "v-1a0b59b8",
-        "v-edcdfa52"
+        "v-edcdfa52",
+        "v-1a0b59b8"
       ]
     },
     "前端": {
@@ -57,18 +48,18 @@ export default {
       "pageKeys": [
         "v-6662c6db",
         "v-0d19ce16",
-        "v-1a0b59b8",
+        "v-35806eed",
         "v-edcdfa52",
-        "v-35806eed"
+        "v-1a0b59b8"
       ]
     },
-    "vue": {
-      "key": "vue",
+    "项目开发": {
+      "key": "项目开发",
       "scope": "tags",
-      "path": "/tags/vue/",
+      "path": "/tags/项目开发/",
       "pageKeys": [
-        "v-1a0b59b8",
-        "v-edcdfa52"
+        "v-08bbe002",
+        "v-6c086f68"
       ]
     },
     "架构": {
@@ -86,6 +77,15 @@ export default {
       "pageKeys": [
         "v-35806eed"
       ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tags/vue/",
+      "pageKeys": [
+        "v-edcdfa52",
+        "v-1a0b59b8"
+      ]
     }
   },
   "categories": {
@@ -94,8 +94,8 @@ export default {
       "scope": "categories",
       "path": "/categories/其他/",
       "pageKeys": [
-        "v-08bbe002",
         "v-6074000b",
+        "v-08bbe002",
         "v-6c086f68"
       ]
     },
@@ -106,9 +106,9 @@ export default {
       "pageKeys": [
         "v-6662c6db",
         "v-0d19ce16",
-        "v-1a0b59b8",
+        "v-35806eed",
         "v-edcdfa52",
-        "v-35806eed"
+        "v-1a0b59b8"
       ]
     }
   },

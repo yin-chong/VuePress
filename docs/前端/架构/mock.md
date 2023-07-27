@@ -56,6 +56,8 @@ Mock.mock("http://localhost:9101/api/user/info", {
 });
 ```
 这个时候请求接口在控制台可以看到mock返回的数据。
+![控制台](./image.png)
+<br>
 Mock.mock详细语法可以看一下官网。<https://github.com/nuysoft/Mock/wiki/Mock.mock()>
 
 ### Mock的封装
@@ -102,6 +104,46 @@ apiList.map(item => {
   Mock.mock(`${baseUrl[env]}${item.url}`, mockConfig[item.name])
 })
 ```
+
+###  Mock的增删改查
+以users列表的增删改查为例, 新建4个接口getUsers, addUser, delUser,  updateUser, 创建users列表数据, 数组长度为10
+```
+let users = [];
+for(let i = 0; i < 10; i++) {
+  users.push(  Mock.mock({
+    userName: Mock.Random.cname(),
+    age: Mock.Random.integer(12, 80),
+    email:  Mock.Random.email(),
+    address:  Mock.Random.county(true)
+  }))
+}
+```
+详细语法可查看官方文档 <http://mockjs.com/examples.html>
+<br>
+getUsers直接返回users数据即可
+```
+const getUsers = {
+  code: 200,
+  data: users
+}
+```
+增删改只需对users数据进行相应的操作, 以新增为例
+```
+const addUser = () => {
+  let user = {
+    userName: Mock.Random.cname(),
+    age: Mock.Random.integer(12, 80),
+    email:  Mock.Random.email(),
+    address:  Mock.Random.county(true)
+  };
+  users.push(user);
+  return {
+    code: 200,
+    data: users
+  }
+}
+```
+
 
 
 

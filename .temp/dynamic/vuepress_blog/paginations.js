@@ -14,13 +14,6 @@ export default [{
 },
 {
   pid: "tags",
-  id: "项目开发",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/项目开发/","interval":[0,2]}],
-},
-{
-  pid: "tags",
   id: "入职随笔",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -49,10 +42,10 @@ export default [{
 },
 {
   pid: "tags",
-  id: "vue",
+  id: "项目开发",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/vue/","interval":[0,2]}],
+  pages: [{"path":"/tags/项目开发/","interval":[0,2]}],
 },
 {
   pid: "tags",
@@ -67,6 +60,13 @@ export default [{
   filter: filters.tags,
   sorter: sorters.tags,
   pages: [{"path":"/tags/mock/","interval":[0,1]}],
+},
+{
+  pid: "tags",
+  id: "vue",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/vue/","interval":[0,2]}],
 },
 {
   pid: "categories",
