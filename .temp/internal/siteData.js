@@ -51,16 +51,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1675821350000
     },
     {
-      "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline",
-        "readingShow": "top"
-      },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
-    },
-    {
       "title": "本站指南",
       "frontmatter": {
         "title": "本站指南",
@@ -115,30 +105,19 @@ export const siteData = {
       "lastUpdatedTimestamp": 1675739419000
     },
     {
-      "title": "入职随笔",
       "frontmatter": {
-        "title": "入职随笔",
-        "date": "2023-07-17T10:00:00.000Z",
-        "isShowComment": true,
-        "tags": [
-          "其他",
-          "入职随笔"
-        ],
-        "categories": [
-          "其他"
-        ],
+        "layout": "TimeLines",
+        "title": "Timeline",
         "readingShow": "top"
       },
-      "regularPath": "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html",
-      "relativePath": "其他/入职随笔.md",
-      "key": "v-6074000b",
-      "path": "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html",
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>记录入职左邻的所思所想</p>\n</div>\n"
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
     },
     {
-      "title": "技术选型",
+      "title": "如何做好技术选型",
       "frontmatter": {
-        "title": " 技术选型",
+        "title": " 如何做好技术选型",
         "date": "2023-04-21T10:00:00.000Z",
         "isShowComment": true,
         "tags": [
@@ -181,9 +160,32 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682320429000
     },
     {
-      "title": "问题汇总",
+      "title": "入职随笔",
       "frontmatter": {
-        "title": " 问题汇总",
+        "title": "入职随笔",
+        "date": "2023-07-17T10:00:00.000Z",
+        "isShowComment": true,
+        "tags": [
+          "其他",
+          "入职随笔"
+        ],
+        "categories": [
+          "其他"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html",
+      "relativePath": "其他/入职随笔.md",
+      "key": "v-6074000b",
+      "path": "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html",
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>记录入职左邻的所思所想</p>\n</div>\n",
+      "lastUpdated": "7/17/2023, 6:42:22 PM",
+      "lastUpdatedTimestamp": 1689590542000
+    },
+    {
+      "title": "记录一些开发时的想法",
+      "frontmatter": {
+        "title": "记录一些开发时的想法",
         "date": "2023-04-23T10:00:00.000Z",
         "isShowComment": true,
         "tags": [
@@ -221,7 +223,7 @@ export const siteData = {
           "slug": "了解业务-理解需求"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>随手记录一下开发时的所思所想</p>\n</div>\n",
+      "excerpt": "",
       "lastUpdated": "4/24/2023, 3:13:49 PM",
       "lastUpdatedTimestamp": 1682320429000
     },
@@ -317,122 +319,47 @@ export const siteData = {
       "lastUpdatedTimestamp": 1683704110000
     },
     {
-      "title": "Java高级",
+      "title": "Mock",
       "frontmatter": {
-        "title": "Java高级",
-        "date": "2100-05-01T12:44:15.000Z",
+        "title": "Mock",
+        "date": "2023-07-26T12:44:15.000Z",
         "tags": [
-          "Spring",
-          "SpringBoot"
+          "架构",
+          "mock",
+          "前端"
         ],
         "categories": [
-          "java"
+          "前端"
         ],
         "readingShow": "top"
       },
-      "regularPath": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/java%E9%AB%98%E7%BA%A7/javaee.html",
-      "relativePath": "技术文章/java高级/javaee.md",
-      "key": "v-13fd0ba6",
-      "path": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/java%E9%AB%98%E7%BA%A7/javaee.html",
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>这是Java高级的摘要内容，<code>vuepress</code>提供的语法块，这部分内容会显示在首页，不信你去首页看看</p>\n<p><a href=\"https://ke.qq.com/course/5285550\" target=\"_blank\" rel=\"noopener noreferrer\">点击免费观看教学视频<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "2/7/2023, 11:10:19 AM",
-      "lastUpdatedTimestamp": 1675739419000
-    },
-    {
-      "title": "Java零基础学习路线",
-      "frontmatter": {
-        "title": "Java零基础学习路线",
-        "date": "2022-08-08T00:00:00.000Z",
-        "sidebarDepth": 2,
-        "categories": [
-          "Java基础"
-        ],
-        "tags": [
-          "Java基础",
-          "零基础"
-        ],
-        "author": "殷冲",
-        "publish": true,
-        "readingShow": "top"
-      },
-      "regularPath": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/",
-      "relativePath": "技术文章/README.md",
-      "key": "v-237a4251",
-      "path": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/",
+      "regularPath": "/%E5%89%8D%E7%AB%AF/%E6%9E%B6%E6%9E%84/mock.html",
+      "relativePath": "前端/架构/mock.md",
+      "key": "v-35806eed",
+      "path": "/%E5%89%8D%E7%AB%AF/%E6%9E%B6%E6%9E%84/mock.html",
       "headers": [
         {
-          "level": 2,
-          "title": "学习之路",
-          "slug": "学习之路"
+          "level": 3,
+          "title": "我为什么需要mock",
+          "slug": "我为什么需要mock"
+        },
+        {
+          "level": 3,
+          "title": "为什么选择MockJs",
+          "slug": "为什么选择mockjs"
+        },
+        {
+          "level": 3,
+          "title": "MockJs安装与基本用法",
+          "slug": "mockjs安装与基本用法"
+        },
+        {
+          "level": 3,
+          "title": "Mock的封装",
+          "slug": "mock的封装"
         }
       ],
-      "excerpt": "",
-      "lastUpdated": "2/8/2023, 9:55:50 AM",
-      "lastUpdatedTimestamp": 1675821350000
-    },
-    {
-      "title": "前端基础",
-      "frontmatter": {
-        "title": "前端基础",
-        "date": "2100-05-01T12:44:15.000Z",
-        "tags": [
-          "vue",
-          "js"
-        ],
-        "categories": [
-          "前端"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue01.html",
-      "relativePath": "技术文章/vue/vue01.md",
-      "key": "v-434f4d83",
-      "path": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue01.html",
-      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块，这部分内容会显示在首页，不信你去首页看看</p>\n<p><a href=\"https://ke.qq.com/course/5285550\" target=\"_blank\" rel=\"noopener noreferrer\">点击免费观看教学视频<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "2/7/2023, 11:10:19 AM",
-      "lastUpdatedTimestamp": 1675739419000
-    },
-    {
-      "title": "vue基础",
-      "frontmatter": {
-        "title": "vue基础",
-        "date": "2023-02-08T12:44:15.000Z",
-        "tags": [
-          "vue",
-          "js",
-          "前端"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue02.html",
-      "relativePath": "技术文章/vue/vue02.md",
-      "key": "v-463a7901",
-      "path": "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue02.html",
-      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
-      "lastUpdated": "2/8/2023, 9:55:50 AM",
-      "lastUpdatedTimestamp": 1675821350000
-    },
-    {
-      "title": "分享生活",
-      "frontmatter": {
-        "title": " 分享生活",
-        "date": "2200-05-01T12:44:15.000Z",
-        "tags": [
-          "生活",
-          "分享生活"
-        ],
-        "categories": [
-          "生活"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html",
-      "relativePath": "生活分享/life.md",
-      "key": "v-ecacd7b4",
-      "path": "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html",
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>这是分享生活的摘要内容，<code>vuepress</code>提供的语法块，这部分内容会显示在首页，不信你去首页看看</p>\n</div>\n",
-      "lastUpdated": "2/8/2023, 9:55:50 AM",
-      "lastUpdatedTimestamp": 1675821350000
+      "excerpt": "<div class=\"custom-block danger\">\n<p>axios + mock</p>\n</div>\n"
     },
     {
       "frontmatter": {
@@ -467,22 +394,22 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "入职随笔 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94/",
-      "key": "v-19941d82",
-      "path": "/tags/入职随笔/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "项目开发 tags",
         "readingShow": "top"
       },
       "regularPath": "/tags/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/",
       "key": "v-b0bd68ee",
       "path": "/tags/项目开发/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "入职随笔 tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tags/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94/",
+      "key": "v-19941d82",
+      "path": "/tags/入职随笔/"
     },
     {
       "frontmatter": {
@@ -527,62 +454,22 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "Spring tags",
+        "title": "架构 tags",
         "readingShow": "top"
       },
-      "regularPath": "/tags/Spring/",
-      "key": "v-300d2181",
-      "path": "/tags/Spring/"
+      "regularPath": "/tags/%E6%9E%B6%E6%9E%84/",
+      "key": "v-7ebe3c06",
+      "path": "/tags/架构/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "SpringBoot tags",
+        "title": "mock tags",
         "readingShow": "top"
       },
-      "regularPath": "/tags/SpringBoot/",
-      "key": "v-3aee5baf",
-      "path": "/tags/SpringBoot/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "Java基础 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/Java%E5%9F%BA%E7%A1%80/",
-      "key": "v-2a5adf98",
-      "path": "/tags/Java基础/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "零基础 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/",
-      "key": "v-e03f2858",
-      "path": "/tags/零基础/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "生活 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E7%94%9F%E6%B4%BB/",
-      "key": "v-31b3711a",
-      "path": "/tags/生活/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "分享生活 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E5%88%86%E4%BA%AB%E7%94%9F%E6%B4%BB/",
-      "key": "v-33a24f30",
-      "path": "/tags/分享生活/"
+      "regularPath": "/tags/mock/",
+      "key": "v-6b3c2d84",
+      "path": "/tags/mock/"
     },
     {
       "frontmatter": {
@@ -603,36 +490,6 @@ export const siteData = {
       "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
       "key": "v-14bbbf36",
       "path": "/categories/前端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "java categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/java/",
-      "key": "v-62faafef",
-      "path": "/categories/java/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "Java基础 categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/Java%E5%9F%BA%E7%A1%80/",
-      "key": "v-fc6ed512",
-      "path": "/categories/Java基础/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "生活 categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/%E7%94%9F%E6%B4%BB/",
-      "key": "v-711f6636",
-      "path": "/categories/生活/"
     }
   ],
   "themeConfig": {
@@ -676,6 +533,15 @@ export const siteData = {
               {
                 "text": "proxy",
                 "link": "/前端/ES6/proxy"
+              }
+            ]
+          },
+          {
+            "text": "架构 ",
+            "items": [
+              {
+                "text": "mock",
+                "link": "/前端/架构/mock"
               }
             ]
           }

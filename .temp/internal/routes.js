@@ -21,19 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-6319eb4e",
-    path: "/timeline/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
-    },
-    meta: {"pid":"timeline","id":"timeline"}
-  },
-  {
-    path: "/timeline/index.html",
-    redirect: "/timeline/"
-  },
-  {
     name: "v-723ad65c",
     path: "/guide/",
     component: GlobalLayout,
@@ -46,20 +33,17 @@ export const routes = [
     redirect: "/guide/"
   },
   {
-    name: "v-6074000b",
-    path: "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html",
+    name: "v-6319eb4e",
+    path: "/timeline/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6074000b").then(next)
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
     },
+    meta: {"pid":"timeline","id":"timeline"}
   },
   {
-    path: "/其他/入职随笔.html",
-    redirect: "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html"
-  },
-  {
-    path: "/其他/入职随笔.html",
-    redirect: "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html"
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
   },
   {
     name: "v-08bbe002",
@@ -76,6 +60,22 @@ export const routes = [
   {
     path: "/其他/技术选型.html",
     redirect: "/%E5%85%B6%E4%BB%96/%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B.html"
+  },
+  {
+    name: "v-6074000b",
+    path: "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6074000b").then(next)
+    },
+  },
+  {
+    path: "/其他/入职随笔.html",
+    redirect: "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html"
+  },
+  {
+    path: "/其他/入职随笔.html",
+    redirect: "/%E5%85%B6%E4%BB%96/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94.html"
   },
   {
     name: "v-6c086f68",
@@ -158,88 +158,20 @@ export const routes = [
     redirect: "/%E5%89%8D%E7%AB%AF/Vue/Vue3%20%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA.html"
   },
   {
-    name: "v-13fd0ba6",
-    path: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/java%E9%AB%98%E7%BA%A7/javaee.html",
+    name: "v-35806eed",
+    path: "/%E5%89%8D%E7%AB%AF/%E6%9E%B6%E6%9E%84/mock.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-13fd0ba6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-35806eed").then(next)
     },
   },
   {
-    path: "/技术文章/java高级/javaee.html",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/java%E9%AB%98%E7%BA%A7/javaee.html"
+    path: "/前端/架构/mock.html",
+    redirect: "/%E5%89%8D%E7%AB%AF/%E6%9E%B6%E6%9E%84/mock.html"
   },
   {
-    path: "/技术文章/java高级/javaee.html",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/java%E9%AB%98%E7%BA%A7/javaee.html"
-  },
-  {
-    name: "v-237a4251",
-    path: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-237a4251").then(next)
-    },
-  },
-  {
-    path: "/技术文章/",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/"
-  },
-  {
-    path: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/index.html",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/"
-  },
-  {
-    path: "/技术文章/",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/"
-  },
-  {
-    name: "v-434f4d83",
-    path: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue01.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-434f4d83").then(next)
-    },
-  },
-  {
-    path: "/技术文章/vue/vue01.html",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue01.html"
-  },
-  {
-    path: "/技术文章/vue/vue01.html",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue01.html"
-  },
-  {
-    name: "v-463a7901",
-    path: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue02.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-463a7901").then(next)
-    },
-  },
-  {
-    path: "/技术文章/vue/vue02.html",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue02.html"
-  },
-  {
-    path: "/技术文章/vue/vue02.html",
-    redirect: "/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/vue/vue02.html"
-  },
-  {
-    name: "v-ecacd7b4",
-    path: "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ecacd7b4").then(next)
-    },
-  },
-  {
-    path: "/生活分享/life.html",
-    redirect: "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html"
-  },
-  {
-    path: "/生活分享/life.html",
-    redirect: "/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/life.html"
+    path: "/前端/架构/mock.html",
+    redirect: "/%E5%89%8D%E7%AB%AF/%E6%9E%B6%E6%9E%84/mock.html"
   },
   {
     name: "v-b1564aac",
@@ -281,19 +213,6 @@ export const routes = [
     redirect: "/tags/其他/"
   },
   {
-    name: "v-19941d82",
-    path: "/tags/入职随笔/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-19941d82").then(next)
-    },
-    meta: {"pid":"tags","id":"入职随笔"}
-  },
-  {
-    path: "/tags/入职随笔/index.html",
-    redirect: "/tags/入职随笔/"
-  },
-  {
     name: "v-b0bd68ee",
     path: "/tags/项目开发/",
     component: GlobalLayout,
@@ -305,6 +224,19 @@ export const routes = [
   {
     path: "/tags/项目开发/index.html",
     redirect: "/tags/项目开发/"
+  },
+  {
+    name: "v-19941d82",
+    path: "/tags/入职随笔/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-19941d82").then(next)
+    },
+    meta: {"pid":"tags","id":"入职随笔"}
+  },
+  {
+    path: "/tags/入职随笔/index.html",
+    redirect: "/tags/入职随笔/"
   },
   {
     name: "v-667bb668",
@@ -359,82 +291,30 @@ export const routes = [
     redirect: "/tags/vue/"
   },
   {
-    name: "v-300d2181",
-    path: "/tags/Spring/",
+    name: "v-7ebe3c06",
+    path: "/tags/架构/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-300d2181").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-7ebe3c06").then(next)
     },
-    meta: {"pid":"tags","id":"Spring"}
+    meta: {"pid":"tags","id":"架构"}
   },
   {
-    path: "/tags/Spring/index.html",
-    redirect: "/tags/Spring/"
+    path: "/tags/架构/index.html",
+    redirect: "/tags/架构/"
   },
   {
-    name: "v-3aee5baf",
-    path: "/tags/SpringBoot/",
+    name: "v-6b3c2d84",
+    path: "/tags/mock/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-3aee5baf").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-6b3c2d84").then(next)
     },
-    meta: {"pid":"tags","id":"SpringBoot"}
+    meta: {"pid":"tags","id":"mock"}
   },
   {
-    path: "/tags/SpringBoot/index.html",
-    redirect: "/tags/SpringBoot/"
-  },
-  {
-    name: "v-2a5adf98",
-    path: "/tags/Java基础/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-2a5adf98").then(next)
-    },
-    meta: {"pid":"tags","id":"Java基础"}
-  },
-  {
-    path: "/tags/Java基础/index.html",
-    redirect: "/tags/Java基础/"
-  },
-  {
-    name: "v-e03f2858",
-    path: "/tags/零基础/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-e03f2858").then(next)
-    },
-    meta: {"pid":"tags","id":"零基础"}
-  },
-  {
-    path: "/tags/零基础/index.html",
-    redirect: "/tags/零基础/"
-  },
-  {
-    name: "v-31b3711a",
-    path: "/tags/生活/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-31b3711a").then(next)
-    },
-    meta: {"pid":"tags","id":"生活"}
-  },
-  {
-    path: "/tags/生活/index.html",
-    redirect: "/tags/生活/"
-  },
-  {
-    name: "v-33a24f30",
-    path: "/tags/分享生活/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-33a24f30").then(next)
-    },
-    meta: {"pid":"tags","id":"分享生活"}
-  },
-  {
-    path: "/tags/分享生活/index.html",
-    redirect: "/tags/分享生活/"
+    path: "/tags/mock/index.html",
+    redirect: "/tags/mock/"
   },
   {
     name: "v-7fc479ec",
@@ -461,45 +341,6 @@ export const routes = [
   {
     path: "/categories/前端/index.html",
     redirect: "/categories/前端/"
-  },
-  {
-    name: "v-62faafef",
-    path: "/categories/java/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-62faafef").then(next)
-    },
-    meta: {"pid":"categories","id":"java"}
-  },
-  {
-    path: "/categories/java/index.html",
-    redirect: "/categories/java/"
-  },
-  {
-    name: "v-fc6ed512",
-    path: "/categories/Java基础/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-fc6ed512").then(next)
-    },
-    meta: {"pid":"categories","id":"Java基础"}
-  },
-  {
-    path: "/categories/Java基础/index.html",
-    redirect: "/categories/Java基础/"
-  },
-  {
-    name: "v-711f6636",
-    path: "/categories/生活/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-711f6636").then(next)
-    },
-    meta: {"pid":"categories","id":"生活"}
-  },
-  {
-    path: "/categories/生活/index.html",
-    redirect: "/categories/生活/"
   },
   {
     path: '*',
