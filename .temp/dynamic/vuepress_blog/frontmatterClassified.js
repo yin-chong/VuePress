@@ -3,6 +3,47 @@
  */
 export default {
   "tags": {
+    "ES6": {
+      "key": "ES6",
+      "scope": "tags",
+      "path": "/tags/ES6/",
+      "pageKeys": [
+        "v-c0833d22",
+        "v-1b8a0c0f"
+      ]
+    },
+    "js": {
+      "key": "js",
+      "scope": "tags",
+      "path": "/tags/js/",
+      "pageKeys": [
+        "v-c0833d22",
+        "v-ebe40c0c",
+        "v-1b8a0c0f",
+        "v-43d660ed"
+      ]
+    },
+    "前端": {
+      "key": "前端",
+      "scope": "tags",
+      "path": "/tags/前端/",
+      "pageKeys": [
+        "v-c0833d22",
+        "v-ebe40c0c",
+        "v-1b8a0c0f",
+        "v-43d660ed",
+        "v-529e1943"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tags/vue/",
+      "pageKeys": [
+        "v-ebe40c0c",
+        "v-43d660ed"
+      ]
+    },
     "其他": {
       "key": "其他",
       "scope": "tags",
@@ -21,38 +62,6 @@ export default {
         "v-6074000b"
       ]
     },
-    "ES6": {
-      "key": "ES6",
-      "scope": "tags",
-      "path": "/tags/ES6/",
-      "pageKeys": [
-        "v-6662c6db",
-        "v-0d19ce16"
-      ]
-    },
-    "js": {
-      "key": "js",
-      "scope": "tags",
-      "path": "/tags/js/",
-      "pageKeys": [
-        "v-6662c6db",
-        "v-0d19ce16",
-        "v-edcdfa52",
-        "v-1a0b59b8"
-      ]
-    },
-    "前端": {
-      "key": "前端",
-      "scope": "tags",
-      "path": "/tags/前端/",
-      "pageKeys": [
-        "v-6662c6db",
-        "v-0d19ce16",
-        "v-35806eed",
-        "v-edcdfa52",
-        "v-1a0b59b8"
-      ]
-    },
     "项目开发": {
       "key": "项目开发",
       "scope": "tags",
@@ -67,7 +76,7 @@ export default {
       "scope": "tags",
       "path": "/tags/架构/",
       "pageKeys": [
-        "v-35806eed"
+        "v-529e1943"
       ]
     },
     "mock": {
@@ -75,20 +84,23 @@ export default {
       "scope": "tags",
       "path": "/tags/mock/",
       "pageKeys": [
-        "v-35806eed"
-      ]
-    },
-    "vue": {
-      "key": "vue",
-      "scope": "tags",
-      "path": "/tags/vue/",
-      "pageKeys": [
-        "v-edcdfa52",
-        "v-1a0b59b8"
+        "v-529e1943"
       ]
     }
   },
   "categories": {
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-c0833d22",
+        "v-ebe40c0c",
+        "v-1b8a0c0f",
+        "v-43d660ed",
+        "v-529e1943"
+      ]
+    },
     "其他": {
       "key": "其他",
       "scope": "categories",
@@ -97,18 +109,6 @@ export default {
         "v-6074000b",
         "v-08bbe002",
         "v-6c086f68"
-      ]
-    },
-    "前端": {
-      "key": "前端",
-      "scope": "categories",
-      "path": "/categories/前端/",
-      "pageKeys": [
-        "v-6662c6db",
-        "v-0d19ce16",
-        "v-35806eed",
-        "v-edcdfa52",
-        "v-1a0b59b8"
       ]
     }
   },

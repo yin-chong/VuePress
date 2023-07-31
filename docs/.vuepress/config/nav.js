@@ -1,30 +1,25 @@
 module.exports = [
     {
-        text: '本站指南', link: '/guide/', icon: 'reco-eye'
+        text: '前端汇总', link: '/guide/', icon: 'reco-eye'
     },
     {
-        text: '前端', link: '/前端/', icon: 'reco-api',
+        text: 'Vue', link: '/Vue/', icon: 'reco-api',
         items: [
-            {
-				text: 'Vue',
-				items: [
-					{text: 'Vue2', link: '/前端/Vue/Vue2 Diff算法解析'},
-					{text: 'Vue3', link: '/前端/Vue/Vue3 架构搭建'},
-				]
-			},
-            {
-				text: 'ES6',
-				items: [
-					{text: 'promise', link: '/前端/ES6/promise'},
-					{text: 'proxy', link: '/前端/ES6/proxy'},
-				]
-			},
-            {
-				text: '架构 ',
-				items: [
-					{text: 'mock', link: '/前端/架构/mock'},
-				]
-			},
+			{text: 'Vue2 Diff算法解析', link: '/Vue/Vue2 Diff算法解析'},
+			{text: 'Vue3', link: '/Vue/Vue3 架构搭建'},
+        ]
+    },
+    {
+        text: 'ES6', link: '/ES6/', icon: 'reco-api',
+        items: [
+			{text: 'promise', link: '/ES6/promise'},
+			{text: 'proxy', link: '/ES6/proxy'},
+        ]
+    },
+    {
+        text: '架构', link: '/架构/', icon: 'reco-api',
+        items: [
+			{text: 'mock', link: '/架构/mock'},
         ]
     },
     {

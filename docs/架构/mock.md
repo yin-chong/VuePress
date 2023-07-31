@@ -1,6 +1,8 @@
 ---
 title: 'Mock'
 date: 2023-07-26 12:44:15
+sidebar: 'auto'
+isShowComment: true
 tags:
 - '架构'
 - 'mock'
@@ -19,14 +21,14 @@ axios + mock
 
 
 
-### 我为什么需要mock
+## 我为什么需要mock
 
 前后端开发时，经常碰到需要等后端接口的情况。在没有使用mock的时候，前端需要自己定义假数据。等数据联调的时候，再删除假数据，这种方式局限性很大。
 1. 对代码改动较大，这种显然是不合理的。使用Mock，只需要控制mock开关就行
 2. 增删改这类接口，使用本地JSON的方式实现较为繁琐
 3. 部分场景下，例如App 微信小程序嵌入H5，本地调试时需要跳过鉴权接口, 使用Mock可提高效率
 
-### 为什么选择MockJs
+## 为什么选择MockJs
 
 - 用法简单
 - 通过随机数据，模拟各种场景, 增加单元测试的真实性
@@ -34,7 +36,7 @@ axios + mock
 - 数据类型丰富, 支持生成随机的文本、数字、布尔值、日期、邮箱、链接、图片、颜色等
 - 方便扩展, 支持支持扩展更多数据类型，支持自定义函数和正则。
 
-### MockJs安装与基本用法
+## MockJs安装与基本用法
 
 ` npm install mockjs  `
 
@@ -61,7 +63,7 @@ Mock.mock("http://localhost:9101/api/user/info", {
 <br>
 Mock.mock详细语法可以看一下官网。<https://github.com/nuysoft/Mock/wiki/Mock.mock()>
 
-### Mock的封装
+## Mock的封装
 
 封装之前需要确认的是，我是在什么场景下使用Mock，最终想要的是什么样的结果
 - 开发环境下，前后端数据接口联调前。后端返回数据结构和接口路径，前端本地Mock，实现基本的增删改查
@@ -106,7 +108,7 @@ apiList.map(item => {
 })
 ```
 
-###  Mock的增删改查
+##  Mock的增删改查
 以users列表的增删改查为例, 新建4个接口getUsers, addUser, delUser,  updateUser, 创建users列表数据, 数组长度为10
 ```
 let users = [];

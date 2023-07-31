@@ -16,6 +16,69 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Promise",
+      "frontmatter": {
+        "title": "Promise",
+        "date": "2023-02-08T12:44:15.000Z",
+        "tags": [
+          "ES6",
+          "js",
+          "前端"
+        ],
+        "categories": [
+          "前端"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/ES6/promise.html",
+      "relativePath": "ES6/promise.md",
+      "key": "v-c0833d22",
+      "path": "/ES6/promise.html",
+      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n"
+    },
+    {
+      "title": "Vue2 Diff算法解析",
+      "frontmatter": {
+        "title": "Vue2 Diff算法解析",
+        "date": "2023-02-08T12:44:15.000Z",
+        "tags": [
+          "vue",
+          "js",
+          "前端"
+        ],
+        "categories": [
+          "前端"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
+      "relativePath": "Vue/Vue2 Diff算法解析.md",
+      "key": "v-ebe40c0c",
+      "path": "/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
+      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n"
+    },
+    {
+      "title": "Proxy",
+      "frontmatter": {
+        "title": "Proxy",
+        "date": "2023-02-08T12:44:15.000Z",
+        "tags": [
+          "ES6",
+          "js",
+          "前端"
+        ],
+        "categories": [
+          "前端"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/ES6/proxy.html",
+      "relativePath": "ES6/proxy.md",
+      "key": "v-1b8a0c0f",
+      "path": "/ES6/proxy.html",
+      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -51,6 +114,36 @@ export const siteData = {
       "lastUpdatedTimestamp": 1675821350000
     },
     {
+      "title": "Vue3 架构搭建",
+      "frontmatter": {
+        "title": "Vue3 架构搭建",
+        "date": "2023-05-04T12:44:15.000Z",
+        "tags": [
+          "vue",
+          "js",
+          "前端"
+        ],
+        "categories": [
+          "前端"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/Vue/Vue3%20%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA.html",
+      "relativePath": "Vue/Vue3 架构搭建.md",
+      "key": "v-43d660ed",
+      "path": "/Vue/Vue3%20%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA.html"
+    },
+    {
+      "frontmatter": {
+        "layout": "TimeLines",
+        "title": "Timeline",
+        "readingShow": "top"
+      },
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
+    },
+    {
       "title": "入职随笔",
       "frontmatter": {
         "title": "入职随笔",
@@ -74,10 +167,10 @@ export const siteData = {
       "lastUpdatedTimestamp": 1690427678000
     },
     {
-      "title": "本站指南",
+      "title": "前端知识体系汇总",
       "frontmatter": {
-        "title": "本站指南",
-        "date": "2022-06-06T00:00:00.000Z",
+        "title": "前端知识体系汇总",
+        "date": "2023-07-31T00:00:00.000Z",
         "sidebar": "auto",
         "isTimeLine": false,
         "isShowComment": true,
@@ -95,18 +188,18 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "初级教程类",
-          "slug": "初级教程类"
+          "title": "HTML",
+          "slug": "html"
         },
         {
           "level": 3,
-          "title": "高级框架类",
-          "slug": "高级框架类"
+          "title": "CSS",
+          "slug": "css"
         },
         {
           "level": 3,
-          "title": "架构设计类",
-          "slug": "架构设计类"
+          "title": "JS + ES6",
+          "slug": "js-es6"
         },
         {
           "level": 3,
@@ -126,39 +219,6 @@ export const siteData = {
       ],
       "lastUpdated": "2/7/2023, 11:10:19 AM",
       "lastUpdatedTimestamp": 1675739419000
-    },
-    {
-      "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline",
-        "readingShow": "top"
-      },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
-    },
-    {
-      "title": "Promise",
-      "frontmatter": {
-        "title": "Promise",
-        "date": "2023-02-08T12:44:15.000Z",
-        "tags": [
-          "ES6",
-          "js",
-          "前端"
-        ],
-        "categories": [
-          "前端"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/ES6/promise.html",
-      "relativePath": "前端/ES6/promise.md",
-      "key": "v-6662c6db",
-      "path": "/%E5%89%8D%E7%AB%AF/ES6/promise.html",
-      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
-      "lastUpdated": "3/4/2023, 6:31:03 PM",
-      "lastUpdatedTimestamp": 1677925863000
     },
     {
       "title": "如何做好技术选型",
@@ -202,79 +262,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">说明</p>\n<p>记录一下在开发时遇到的关于技术选型的问题，以及如何做好技术选型</p>\n</div>\n",
-      "lastUpdated": "7/27/2023, 11:14:38 AM",
-      "lastUpdatedTimestamp": 1690427678000
-    },
-    {
-      "title": "Proxy",
-      "frontmatter": {
-        "title": "Proxy",
-        "date": "2023-02-08T12:44:15.000Z",
-        "tags": [
-          "ES6",
-          "js",
-          "前端"
-        ],
-        "categories": [
-          "前端"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/ES6/proxy.html",
-      "relativePath": "前端/ES6/proxy.md",
-      "key": "v-0d19ce16",
-      "path": "/%E5%89%8D%E7%AB%AF/ES6/proxy.html",
-      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
-      "lastUpdated": "3/4/2023, 6:31:03 PM",
-      "lastUpdatedTimestamp": 1677925863000
-    },
-    {
-      "title": "Mock",
-      "frontmatter": {
-        "title": "Mock",
-        "date": "2023-07-26T12:44:15.000Z",
-        "tags": [
-          "架构",
-          "mock",
-          "前端"
-        ],
-        "categories": [
-          "前端"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/%E6%9E%B6%E6%9E%84/mock.html",
-      "relativePath": "前端/架构/mock.md",
-      "key": "v-35806eed",
-      "path": "/%E5%89%8D%E7%AB%AF/%E6%9E%B6%E6%9E%84/mock.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "我为什么需要mock",
-          "slug": "我为什么需要mock"
-        },
-        {
-          "level": 3,
-          "title": "为什么选择MockJs",
-          "slug": "为什么选择mockjs"
-        },
-        {
-          "level": 3,
-          "title": "MockJs安装与基本用法",
-          "slug": "mockjs安装与基本用法"
-        },
-        {
-          "level": 3,
-          "title": "Mock的封装",
-          "slug": "mock的封装"
-        },
-        {
-          "level": 3,
-          "title": "Mock的增删改查",
-          "slug": "mock的增删改查"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block danger\">\n<p>axios + mock</p>\n</div>\n",
       "lastUpdated": "7/27/2023, 11:14:38 AM",
       "lastUpdatedTimestamp": 1690427678000
     },
@@ -324,13 +311,15 @@ export const siteData = {
       "lastUpdatedTimestamp": 1690427678000
     },
     {
-      "title": "Vue3 架构搭建",
+      "title": "Mock",
       "frontmatter": {
-        "title": "Vue3 架构搭建",
-        "date": "2023-05-04T12:44:15.000Z",
+        "title": "Mock",
+        "date": "2023-07-26T12:44:15.000Z",
+        "sidebar": "auto",
+        "isShowComment": true,
         "tags": [
-          "vue",
-          "js",
+          "架构",
+          "mock",
           "前端"
         ],
         "categories": [
@@ -338,35 +327,47 @@ export const siteData = {
         ],
         "readingShow": "top"
       },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/Vue/Vue3%20%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA.html",
-      "relativePath": "前端/Vue/Vue3 架构搭建.md",
-      "key": "v-edcdfa52",
-      "path": "/%E5%89%8D%E7%AB%AF/Vue/Vue3%20%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA.html",
-      "lastUpdated": "5/10/2023, 3:35:10 PM",
-      "lastUpdatedTimestamp": 1683704110000
+      "regularPath": "/%E6%9E%B6%E6%9E%84/mock.html",
+      "relativePath": "架构/mock.md",
+      "key": "v-529e1943",
+      "path": "/%E6%9E%B6%E6%9E%84/mock.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我为什么需要mock",
+          "slug": "我为什么需要mock"
+        },
+        {
+          "level": 2,
+          "title": "为什么选择MockJs",
+          "slug": "为什么选择mockjs"
+        },
+        {
+          "level": 2,
+          "title": "MockJs安装与基本用法",
+          "slug": "mockjs安装与基本用法"
+        },
+        {
+          "level": 2,
+          "title": "Mock的封装",
+          "slug": "mock的封装"
+        },
+        {
+          "level": 2,
+          "title": "Mock的增删改查",
+          "slug": "mock的增删改查"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block danger\">\n<p>axios + mock</p>\n</div>\n"
     },
     {
-      "title": "Vue2 Diff算法解析",
       "frontmatter": {
-        "title": "Vue2 Diff算法解析",
-        "date": "2023-02-08T12:44:15.000Z",
-        "tags": [
-          "vue",
-          "js",
-          "前端"
-        ],
-        "categories": [
-          "前端"
-        ],
         "readingShow": "top"
       },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
-      "relativePath": "前端/Vue/Vue2 Diff算法解析.md",
-      "key": "v-1a0b59b8",
-      "path": "/%E5%89%8D%E7%AB%AF/Vue/Vue2%20Diff%E7%AE%97%E6%B3%95%E8%A7%A3%E6%9E%90.html",
-      "excerpt": "<div class=\"custom-block danger\"><p class=\"custom-block-title\">说明</p>\n<p>这是前端基础的摘要内容，<code>vuepress</code>提供的语法块</p>\n</div>\n",
-      "lastUpdated": "3/4/2023, 6:31:03 PM",
-      "lastUpdatedTimestamp": 1677925863000
+      "regularPath": "/%E6%9E%B6%E6%9E%84/%E8%84%9A%E6%89%8B%E6%9E%B6%E6%90%AD%E5%BB%BA.html",
+      "relativePath": "架构/脚手架搭建.md",
+      "key": "v-0ba21556",
+      "path": "/%E6%9E%B6%E6%9E%84/%E8%84%9A%E6%89%8B%E6%9E%B6%E6%90%AD%E5%BB%BA.html"
     },
     {
       "frontmatter": {
@@ -387,26 +388,6 @@ export const siteData = {
       "regularPath": "/categories/",
       "key": "v-ef9325c4",
       "path": "/categories/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "其他 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E5%85%B6%E4%BB%96/",
-      "key": "v-146949ae",
-      "path": "/tags/其他/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "入职随笔 tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tags/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94/",
-      "key": "v-19941d82",
-      "path": "/tags/入职随笔/"
     },
     {
       "frontmatter": {
@@ -441,6 +422,36 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "vue tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tags/vue/",
+      "key": "v-669281ea",
+      "path": "/tags/vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "其他 tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tags/%E5%85%B6%E4%BB%96/",
+      "key": "v-146949ae",
+      "path": "/tags/其他/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "入职随笔 tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tags/%E5%85%A5%E8%81%8C%E9%9A%8F%E7%AC%94/",
+      "key": "v-19941d82",
+      "path": "/tags/入职随笔/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "项目开发 tags",
         "readingShow": "top"
       },
@@ -470,13 +481,13 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Tag",
-        "title": "vue tags",
+        "layout": "Category",
+        "title": "前端 categories",
         "readingShow": "top"
       },
-      "regularPath": "/tags/vue/",
-      "key": "v-669281ea",
-      "path": "/tags/vue/"
+      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
+      "key": "v-14bbbf36",
+      "path": "/categories/前端/"
     },
     {
       "frontmatter": {
@@ -487,16 +498,6 @@ export const siteData = {
       "regularPath": "/categories/%E5%85%B6%E4%BB%96/",
       "key": "v-7fc479ec",
       "path": "/categories/其他/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "前端 categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
-      "key": "v-14bbbf36",
-      "path": "/categories/前端/"
     }
   ],
   "themeConfig": {
@@ -513,44 +514,43 @@ export const siteData = {
         "icon": "reco-eye"
       },
       {
-        "text": "前端",
-        "link": "/前端/",
+        "text": "Vue",
+        "link": "/Vue/",
         "icon": "reco-api",
         "items": [
           {
-            "text": "Vue",
-            "items": [
-              {
-                "text": "Vue2",
-                "link": "/前端/Vue/Vue2 Diff算法解析"
-              },
-              {
-                "text": "Vue3",
-                "link": "/前端/Vue/Vue3 架构搭建"
-              }
-            ]
+            "text": "Vue2 Diff算法解析",
+            "link": "/Vue/Vue2 Diff算法解析"
           },
           {
-            "text": "ES6",
-            "items": [
-              {
-                "text": "promise",
-                "link": "/前端/ES6/promise"
-              },
-              {
-                "text": "proxy",
-                "link": "/前端/ES6/proxy"
-              }
-            ]
+            "text": "Vue3",
+            "link": "/Vue/Vue3 架构搭建"
+          }
+        ]
+      },
+      {
+        "text": "ES6",
+        "link": "/ES6/",
+        "icon": "reco-api",
+        "items": [
+          {
+            "text": "promise",
+            "link": "/ES6/promise"
           },
           {
-            "text": "架构 ",
-            "items": [
-              {
-                "text": "mock",
-                "link": "/前端/架构/mock"
-              }
-            ]
+            "text": "proxy",
+            "link": "/ES6/proxy"
+          }
+        ]
+      },
+      {
+        "text": "架构",
+        "link": "/架构/",
+        "icon": "reco-api",
+        "items": [
+          {
+            "text": "mock",
+            "link": "/架构/mock"
           }
         ]
       },
