@@ -1,6 +1,6 @@
 module.exports = [
     {
-        text: '前端汇总', link: '/guide/', icon: 'reco-eye'
+        text: 'Web', link: '/guide/', icon: 'reco-eye'
     },
     {
         text: 'Vue', link: '/Vue/', icon: 'reco-api',
@@ -17,18 +17,16 @@ module.exports = [
         ]
     },
     {
-        text: '架构', link: '/架构/', icon: 'reco-api',
+        text: 'Cli', link: '/Cli/', icon: 'reco-api',
         items: [
-			{text: 'mock', link: '/架构/mock'},
+			{text: 'mock', link: '/Cli/mock'},
         ]
     },
     {
-        text: '其他', link: '/其他/', icon: 'reco-faq',
+        text: 'Other', link: '/Other/', icon: 'reco-faq',
         items: [
-			{text: '技术选型', link: '/其他/技术选型'},
-			{text: '问题汇总', link: '/其他/问题汇总'},
-			{text: '入职随笔', link: '/其他/入职随笔'},
+			{text: 'Gzip', link: '/Other/Gzip'},
         ]
     },
-	{ text: '时间轴', link: '/timeline/', icon: 'reco-date' }
+	{ text: 'Timeline', link: '/timeline/', icon: 'reco-date' }
 ]

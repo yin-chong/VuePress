@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tags/ES6/",
       "pageKeys": [
-        "v-c0833d22",
-        "v-1b8a0c0f"
+        "v-0cce09a8",
+        "v-ecede768"
       ]
     },
     "js": {
@@ -17,10 +17,10 @@ export default {
       "scope": "tags",
       "path": "/tags/js/",
       "pageKeys": [
-        "v-c0833d22",
-        "v-ebe40c0c",
-        "v-1b8a0c0f",
-        "v-43d660ed"
+        "v-0cce09a8",
+        "v-ecede768",
+        "v-727310f7",
+        "v-63acc4ea"
       ]
     },
     "前端": {
@@ -28,47 +28,11 @@ export default {
       "scope": "tags",
       "path": "/tags/前端/",
       "pageKeys": [
-        "v-c0833d22",
-        "v-ebe40c0c",
-        "v-1b8a0c0f",
-        "v-43d660ed",
-        "v-529e1943"
-      ]
-    },
-    "vue": {
-      "key": "vue",
-      "scope": "tags",
-      "path": "/tags/vue/",
-      "pageKeys": [
-        "v-ebe40c0c",
-        "v-43d660ed"
-      ]
-    },
-    "其他": {
-      "key": "其他",
-      "scope": "tags",
-      "path": "/tags/其他/",
-      "pageKeys": [
-        "v-6074000b",
-        "v-08bbe002",
-        "v-6c086f68"
-      ]
-    },
-    "入职随笔": {
-      "key": "入职随笔",
-      "scope": "tags",
-      "path": "/tags/入职随笔/",
-      "pageKeys": [
-        "v-6074000b"
-      ]
-    },
-    "项目开发": {
-      "key": "项目开发",
-      "scope": "tags",
-      "path": "/tags/项目开发/",
-      "pageKeys": [
-        "v-08bbe002",
-        "v-6c086f68"
+        "v-0cce09a8",
+        "v-3722c634",
+        "v-ecede768",
+        "v-727310f7",
+        "v-63acc4ea"
       ]
     },
     "架构": {
@@ -76,7 +40,7 @@ export default {
       "scope": "tags",
       "path": "/tags/架构/",
       "pageKeys": [
-        "v-529e1943"
+        "v-3722c634"
       ]
     },
     "mock": {
@@ -84,7 +48,16 @@ export default {
       "scope": "tags",
       "path": "/tags/mock/",
       "pageKeys": [
-        "v-529e1943"
+        "v-3722c634"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tags/vue/",
+      "pageKeys": [
+        "v-727310f7",
+        "v-63acc4ea"
       ]
     }
   },
@@ -94,21 +67,11 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-c0833d22",
-        "v-ebe40c0c",
-        "v-1b8a0c0f",
-        "v-43d660ed",
-        "v-529e1943"
-      ]
-    },
-    "其他": {
-      "key": "其他",
-      "scope": "categories",
-      "path": "/categories/其他/",
-      "pageKeys": [
-        "v-6074000b",
-        "v-08bbe002",
-        "v-6c086f68"
+        "v-0cce09a8",
+        "v-3722c634",
+        "v-ecede768",
+        "v-727310f7",
+        "v-63acc4ea"
       ]
     }
   },

@@ -1,1 +1,1 @@
-export { default } from "F:\\study\\VuePress\\node_modules\\vuepress-plugin-flowchart\\lib\\client.js"
+export { default } from "C:\\个人项目\\VuePress\\node_modules\\vuepress-plugin-flowchart\\lib\\client.js"
